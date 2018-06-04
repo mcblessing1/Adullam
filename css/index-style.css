@@ -1,0 +1,151 @@
+* {
+	font-family: roboto;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-move-right {
+	justify-content: flex-end;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#section-1 {
+	background-image: url(../assets/images/index-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(58, 34, 123, 0.7);
+	padding: 205px 0 235px 0px;
+	position: relative;
+}
+
+.adullam-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(58, 34, 123, 0.7);
+}
+
+.we-are {
+	color: #F62323;
+	font-size: 73px;
+}
+
+.emerging {
+	font-size: 43px;
+}
+
+.growing-up {
+	color: #A99DC9;
+	font-size: 20px;
+}
+
+.buttons {
+	padding: 10px 30px;
+	border-radius: 20px;
+	font-size: 14px;
+	box-shadow: black 2px 2px 12px 0px;
+}
+
+.lock {
+	color: white;
+}
+
+#section-2 {
+	background-image: url();
+	background-color: #CA2233;
+	padding: 61px 0 51px 0;
+}
+
+.who-we-are {
+	font-size: 73px;
+}
+
+.we-have {
+	font-size: 20px;
+}
+
+#section-3 {
+	background-color: rgba(58, 34, 123, 0.7);
+	padding: 60px 0 64px 0px;
+}
+
+.what-we-do {
+	font-size: 73px;
+}
+
+.there-are {
+	font-size: 20px;
+	color: #ACACD4;
+}
+
+#section-4 {
+	background-color: #CA2233;
+	padding: 60px 0 25px 0px;
+}
+
+.why-are-we {
+	color: #422C70;
+	font-size: 73px;
+	padding-bottom: 28px;
+}
+
+.we-strongly {
+	color: #EBEAEF;
+	font-size: 20px;
+}
+
+#section-5 {
+	background-color: rgba(58, 34, 123, 0.7);
+	padding: 60px 0 25px 0px;
+}
+
+.paragraph-design {
+	color: #EBEAEF;
+	font-size: 20px;
+}
+
+.contact-us {
+	margin: 0px 0px 20px 0px;
+	font-size: 73px
+}
+
+.contact-full-width {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px grey solid;
+}
+
+.contact-full-width::placeholder {
+	color: white;
+	background: transparent;
+}
+
+#form-buttons {
+	margin-top: 10px;
+}
+
+#form-social-icons {
+	margin-top: 40px;
+}
+
+#form-social-icons .col-md-5 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#form-social-icons > div > a {
+	color: white;
+	text-decoration: white;
+}

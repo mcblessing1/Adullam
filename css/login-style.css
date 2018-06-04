@@ -1,0 +1,67 @@
+* {
+	font-family: roboto;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-move-right {
+	justify-content: flex-end;
+}
+
+.flex-align-center {
+	justify-content: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+body {
+	background-image: url(../assets/images/index-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px 0 300px 0px;
+	position: relative;
+}
+
+.adullam-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(48, 47, 51, 0.7);
+}
+
+.contact-full-width {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px grey solid;
+	color: white;
+}
+
+.contact-full-width::placeholder {
+	color: white;
+	background: transparent;
+}
+
+.remember {
+	color: white;
+	margin: 0px 0px 20px 0px;
+}
+
+.button-style {
+	padding: 10px 30px;
+	font-size: 14px;
+	box-shadow: black 1px 1px 12px 0px;
+	color: white;
+	background: #89020a;
+}
+
