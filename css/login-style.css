@@ -39,6 +39,28 @@ body {
 	background-color: rgba(48, 47, 51, 0.7);
 }
 
+.tabs {
+	background-color: white !important;
+	border-radius: 20px;
+}
+
+.tabs > li {
+/*	background-color: rgb(48, 47, 51);*/
+	border-radius: 20px;
+}
+
+.tabs > li > a.active {
+	background-color: rgba(48, 47, 51, 0.56) !important;
+	border-radius: 20px;
+	color: white;
+}
+
+.tabs > li > a {
+	background-color: white !important;
+	border-radius: 20px !important;
+	color: black;
+}
+
 .contact-full-width {
 	width: 100%;
 	background: transparent;

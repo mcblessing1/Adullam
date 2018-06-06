@@ -14,6 +14,11 @@
 	justify-content: flex-end;
 }
 
+.flex-justify-center {
+	display: flex;
+	justify-content: center;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -57,7 +62,14 @@
 	box-shadow: black 2px 2px 12px 0px;
 }
 
-.lock {
+.arrow-down {
+	position: absolute;
+	bottom: 0;
+    right: 50%;
+	color: white;
+}
+
+.arrow-down > div > a {
 	color: white;
 }
 
@@ -69,19 +81,22 @@
 
 .who-we-are {
 	font-size: 73px;
+	color: darkblue;
 }
 
 .we-have {
 	font-size: 20px;
+	color: darkblue;
 }
 
 #section-3 {
-	background-color: rgba(58, 34, 123, 0.7);
+	background-color: rgb(78, 57, 134);
 	padding: 60px 0 64px 0px;
 }
 
 .what-we-do {
 	font-size: 73px;
+	color: white;
 }
 
 .there-are {
@@ -106,12 +121,24 @@
 }
 
 #section-5 {
-	background-color: rgba(58, 34, 123, 0.7);
+	background-color: rgb(78, 57, 134);;
 	padding: 60px 0 25px 0px;
+	position: relative;
+}
+
+.arrow-up {
+	position: absolute;
+	top: 0;
+    right: 50%;
+	color: white;
+}
+
+.arrow-up > div > a {
+	color: white;
 }
 
 .paragraph-design {
-	color: #EBEAEF;
+	color: white;
 	font-size: 20px;
 }
 

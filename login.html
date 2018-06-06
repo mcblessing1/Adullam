@@ -21,7 +21,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 	
 	<!-- My Stylesheet -->
-
 	<link rel="stylesheet" href="css/login-style.css">
 </head>
 
@@ -34,23 +33,24 @@
 			<div class="col-md-4">
 
 				<!-- Nav Tab -->
-				<ul class="nav nav-tabs">
-					<li class="active">
-						<a href="#log-in">
+				<ul class="nav nav-pills nav-fill tabs" id="pills-tab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="pills-login-tab" data-toggle="pill" href="#login" role="tab" aria-controls="pills-login" aria-selected="true">
 							Log In
 						</a>
 					</li>
 
-					<li >
-						<a href="#sign-up">
+					<li class="nav-item" >
+						<a class="nav-link" id="pills-signup-tab" data-toggle="pill" href="#signup" role="tab" aria-controls="pills-signup" aria-selected="false">
 							Sign Up
 						</a>
 					</li>
 				</ul>
 
 				<!-- Tab Contents -->
-				<div class="tab-content">
-					<div id="login" class="tab-pane active">
+				<div class="tab-content" id="pills-tabContent">
+					<!-- Login -->
+					<div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
 						<div class="form">
 							<form action=""><br>
 								<input class="contact-full-width" type="text" type="text" placeholder="Email"><br><br>
@@ -71,7 +71,8 @@
 						</div>
 					</div>
 
-					<div id="sign-up" class="tab-pane">
+					<!-- Register -->
+					<div class="tab-pane fade" id="pills-signup" role="tabpanel" aria-labelledby="pills-signup-tab">
 						<div class="form">
 							<form action=""><br>
 								<input class="contact-full-width" type="text" type="text" placeholder="Email"><br><br>
@@ -90,11 +91,12 @@
 							</form>
 							
 							<div class="text-center text-muted" style="padding-top: 10px;">
-								Already a member? <a href="#log-in" style="text-decoration: underline; color: #969595;">Log In</a>
+								Already a member? <a href="login.html" style="text-decoration: underline; color: #969595;">Log In</a>
 							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -107,9 +109,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-<!--
-<link rel="stylesheet" type="text/css" href="assets/bootstrap/js/bootstrap.min.js">
 <link rel="stylesheet" type="text/css" href="assets/jquery/jquery.min.js">
--->
+<link rel="stylesheet" type="text/css" href="assets/bootstrap/js/bootstrap.min.js">
 
 </html>
