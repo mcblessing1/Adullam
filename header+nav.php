@@ -19,7 +19,7 @@
 							</i>
 						</div>
 						<h5>MAIN MENU</h5>
-						<div class="menu-links ">
+						<div class="menu-links is-hidden">
 							<ul>
 								<li>
 									<i class="fa fa-home fa-2x"></i>
@@ -63,34 +63,37 @@
 			<div class="col-md-9 right-pane">
 
 				<!-- Search and Notifications -->
-				<div class="row">
-					<div class="col-md">
-						<div class="header put-space-between">
-							<!-- Home Search Button -->
-							<div class="col-md-4 v-center">
-								<div class="input-group no-search-wrap">
-									<input class="form-control home-search" type="text">
-									<div class="input-group-append">
-										<button class="btn home-search-button" type="button">
-										 	<i class="fa fa-search"></i>
-										</button>
+				<div class="">
+					<div class="row">
+						<div class="col-md">
+							<div class="header put-space-between">
+								<!-- Home Search Button -->
+								<div class="col-md-4 v-center">
+									<div class="input-group no-search-wrap">
+										<input class="form-control home-search" type="text">
+										<div class="input-group-append">
+											<button class="btn home-search-button" type="button">
+												<i class="fa fa-search"></i>
+											</button>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<!-- Notifications, Settings, Name and Icon -->
-							<div class="col-md-8">
-								<div class="move-to-right v-center notifs">
-									<a href="#">
-										<i class="fa fa-bell fa-2x" style="padding-right: 10px;"></i>
-									</a>
-									<a href="#">
-										<i class="fa fa-gear fa-2x " style="padding-right: 10px;"></i>
-									</a>
-									<p class="member-name">Jehoshaphat I. abu <span></span> </p>
-									<a href="#">
-										<i class="fa fa-user-circle fa-2x"></i>
-									</a>
+								<!-- Notifications, Settings, Name and Icon -->
+								<div class="col-md-8">
+									<div class="move-to-right v-center notifs">
+										<a href="#">
+											<i class="fa fa-bell fa-2x" style="padding-right: 10px;"></i>
+										</a>
+										<a href="#">
+											<i class="fa fa-gear fa-2x " style="padding-right: 10px;"></i>
+										</a>
+										<p class="member-name">Jehoshaphat I. abu <span></span> </p>
+										<a href="#">
+											<!--<i class="fa fa-user-circle fa-2x"></i>-->
+											<img style="border-radius: 15px;" src="http://via.placeholder.com/30" alt="">
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>

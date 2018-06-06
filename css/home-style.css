@@ -1,5 +1,5 @@
 * {
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 }
 
 /*Custom Alignment Declarations*/
@@ -52,48 +52,48 @@ body {
 }
 
 .menu-button {
-		display: none;
-	}
+	display: none;
+}
 
 .main-menu > h5 {
 	padding: 20px 0px 0px 20px;
 	color: white;
 }
 
-.main-menu > div> ul {
+.main-menu > div > ul {
 	list-style-type: none;
 	padding-left: 0px;
 }
 
-.main-menu > div> ul > li {
+.main-menu > div > ul > li {
 	padding: 10px 0px 10px 20px;
 	margin-left: 0px;
 	display: flex;
 	align-self: center;
 }
 
-.main-menu > div> ul > li:hover {
+.main-menu > div > ul > li:hover {
 	background-color: #710d0d;
 	color: white;
 }
 
-.main-menu > div> ul > li > i {
+.main-menu > div > ul > li > i {
 	color: white;
 }
 
-.main-menu > div> ul > li > i:hover {
+.main-menu > div > ul > li > i:hover {
 	color: white;
-	
+
 }
 
-.main-menu > div> ul > li > a {
+.main-menu > div > ul > li > a {
 	padding-left: 25px;
 	color: #d6d6d6;
 	display: flex;
 	align-self: center;
 }
 
-.main-menu > div> ul > li > a:hover {
+.main-menu > div > ul > li > a:hover {
 	color: white;
 	text-decoration: none;
 }
@@ -143,15 +143,15 @@ body {
 }
 
 .member-name {
-	color: #646464; 
-	padding: 0px 10px 0px 10px; 
-	border-left: 1px solid grey; 
+	color: #646464;
+	padding: 0px 10px 0px 10px;
+	border-left: 1px solid grey;
 	font-size: 20px;
 	margin: 0px;
 }
 
 .main-content {
-	color: white; 
+	color: white;
 	padding: 30px 30px;
 }
 
@@ -162,63 +162,59 @@ body {
 /*MOBILE VIEW RULES*/
 
 @media (max-width: 767px) {
-	
+
 	.left-pane {
 		padding-bottom: 0px;
 	}
-	
+
 	.main-menu {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 	}
-	
+
 	.menu-button {
-    	padding: 20px 20px 20px 20px;
-    	margin-left: 0px;
-    	display: flex;
-    	align-self: center;
+		padding: 20px 20px 20px 20px;
+		margin-left: 0px;
+		display: flex;
+		align-self: center;
 		justify-content: center;
 		color: white;
 	}
-	
+
 	.menu-button:hover {
 		color: #710d0d;
 		border: 1px solid white;
 	}
-	
+
 	.main-menu > h5 {
 		display: none;
 	}
-	
+
 	.main-menu > div > ul > li {
 		padding: 10px 20px 10px 20px;
 	}
-	
-	.is-hidden {
-		display: none;
-		
-	}
-	
+
 	.menu-links {
 		display: flex;
 		justify-content: center;
 	}
-	
+
+	.menu-links.is-hidden {
+		display: none;
+	}
+
 	.menu-links > ul > li {
-    	padding: 10px 50px 10px 50px;
-    	margin-left: 0px;
-		
+		padding: 10px 50px 10px 50px;
+		margin-left: 0px;
+
 	}
-	
+
 	.menu-links > ul > li > a {
-    	padding-left: 35px;
+		padding-left: 35px;
 	}
-	
-	
-	
-	
+
+
+
+
 }
-
-
-
