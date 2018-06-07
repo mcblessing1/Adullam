@@ -107,10 +107,22 @@
 												</div>
 											</div>
 										</a>
-										<a href="#">
+										<a href="profile.php">
 											<i class="fa fa-gear fa-2x " style="padding-right: 10px;"></i>
 										</a>
-										<p class="member-name">Jehoshaphat I. abu <span></span> </p>
+										<a href="">
+											<div class="dropdown">
+  												<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  													<p class="member-name">
+  														Jehoshaphat I. abu
+  													</p>
+  												</button>
+  												<div class="dropdown-menu" id="notif-dropdown" aria-labelledby="dropdownMenu2">
+													<button class="dropdown-item" type="button">Activity Logs</button>
+													<button class="dropdown-item" type="button">Log Out</button>
+												</div>
+											</div>
+										</a>
 										<a href="#">
 											<img style="border-radius: 15px;" src="http://via.placeholder.com/30" alt="">
 										</a>
