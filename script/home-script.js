@@ -5,6 +5,8 @@ $(document).ready(function () {
 		console.log("#menu-button is clicked");
 		$(".menu-links").toggleClass("is-hidden");
 	});
+	
+//	$('.fa-bell').click(function () {
+//		$('.notifs-box').toggleClass('notifs-is-hidden');
+//	});
 });
-
-//.toggle( effect [, options ] [, duration ] [, complete ] )

@@ -1,5 +1,6 @@
 <!-- whole page -->
-	<div class="container-fluid">
+
+<div class="container-fluid">
 		<div class="row">
 			<!-- Left pane - Nav: Logo and Menu -->
 			<div class="col-md-3 left-pane">
@@ -23,7 +24,7 @@
 							<ul>
 								<li>
 									<i class="fa fa-home fa-2x"></i>
-									<a href="home.html">Home</a>
+									<a href="home.php">Home</a>
 								</li>
 								<li>
 									<i class="fa fa-tag fa-2x"></i>
@@ -53,12 +54,18 @@
 									<i class="fa fa-hdd-o fa-2x"></i>
 									<a href="">Resource Bank</a>
 								</li>
+								<li>
+									<i class="fa fa-comments fa-2x"></i>
+									<a href="">Adullam Chat</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 
+			
+			
 			<!-- Right pane - Content Pane -->
 			<div class="col-md-9 right-pane">
 
@@ -69,28 +76,42 @@
 							<div class="header put-space-between">
 								<!-- Home Search Button -->
 								<div class="col-md-4 v-center">
-									<div class="input-group no-search-wrap">
-										<input class="form-control home-search" type="text">
-										<div class="input-group-append">
-											<button class="btn home-search-button" type="button">
-												<i class="fa fa-search"></i>
-											</button>
+									<form action="">
+										<div class="input-group no-search-wrap">
+											<input class="form-control home-search" type="text">
+											<div class="input-group-append">
+												<button class="btn home-search-button" type="button">
+													<i class="fa fa-search"></i>
+												</button>
+											</div>
 										</div>
-									</div>
+									</form>
 								</div>
 
 								<!-- Notifications, Settings, Name and Icon -->
 								<div class="col-md-8">
 									<div class="move-to-right v-center notifs">
+										<a href="chat.php">
+											<i class="fa fa-comments fa-2x" style="padding-right: 10px;"></i>
+										</a>
 										<a href="#">
-											<i class="fa fa-bell fa-2x" style="padding-right: 10px;"></i>
+											<div class="dropdown">
+  												<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  													<i class="fa fa-bell fa-2x" style="padding-right: 10px;"></i>
+  												</button>
+  												<div class="dropdown-menu" id="notif-dropdown" aria-labelledby="dropdownMenu2">
+													<button class="dropdown-item" type="button">Prayer and fasting</button>
+													<button class="dropdown-item" type="button">Wisdom challenge</button>
+													<button class="dropdown-item" type="button">Wealth Creation Challenge</button>
+													<button class="dropdown-item" type="button">Purpose Challenge</button>
+												</div>
+											</div>
 										</a>
 										<a href="#">
 											<i class="fa fa-gear fa-2x " style="padding-right: 10px;"></i>
 										</a>
 										<p class="member-name">Jehoshaphat I. abu <span></span> </p>
 										<a href="#">
-											<!--<i class="fa fa-user-circle fa-2x"></i>-->
 											<img style="border-radius: 15px;" src="http://via.placeholder.com/30" alt="">
 										</a>
 									</div>
