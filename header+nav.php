@@ -1,5 +1,3 @@
-<!-- whole page -->
-
 <div class="container-fluid">
 	<div class="row">
 		<!-- Left pane - Nav: Logo and Menu -->
@@ -126,5 +124,3 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
