@@ -44,6 +44,7 @@ body {
 }
 
 .logo {
+	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: white;
@@ -51,49 +52,53 @@ body {
 	padding-left: 0px;
 }
 
+.logo-img {
+	width: 50%;
+}
+
 .menu-button {
 	display: none;
 }
 
-.main-menu > h5 {
+.main-menu-text {
 	padding: 20px 0px 0px 20px;
 	color: white;
 }
 
-.main-menu > div > ul {
+.main-menu-ul {
 	list-style-type: none;
 	padding-left: 0px;
 }
 
-.main-menu > div > ul > li {
+.main-menu-ul > li {
 	padding: 10px 0px 10px 20px;
 	margin-left: 0px;
 	display: flex;
 	align-self: center;
 }
 
-.main-menu > div > ul > li:hover {
+.main-menu-ul > li:hover {
 	background-color: #710d0d;
 	color: white;
 }
 
-.main-menu > div > ul > li > i {
+.main-menu-ul > li > i {
 	color: white;
 }
 
-.main-menu > div > ul > li > i:hover {
+.main-menu-ul > li > i:hover {
 	color: white;
 
 }
 
-.main-menu > div > ul > li > a {
+.main-menu-ul > li > a {
 	padding-left: 25px;
 	color: #d6d6d6;
 	display: flex;
 	align-self: center;
 }
 
-.main-menu > div > ul > li > a:hover {
+.main-menu-ul > li > a:hover {
 	color: white;
 	text-decoration: none;
 }
@@ -104,7 +109,7 @@ body {
 	padding: 0px;
 }
 
-.right-pane > div > div > div {
+.search-notif {
     padding-right: 0px;
     padding-left: 0px;
 }
