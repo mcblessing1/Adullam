@@ -56,277 +56,368 @@
 				<div id="groups" class="container tab-pane active">
 
 					<br>
-
-					<div class="row" style="margin-bottom: 5px;">
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="row" style="margin-bottom: 5px;">
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="row" style="margin-bottom: 5px;">
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-
-						<div class="col-md" style="margin-bottom: 20px;">
-							<div class="about-img">
-								<img src="assets/images/Logo-Full-Colour.png" alt="">
-							</div>
-							<div class="group-name text-center">
-								<h3>Group Name</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Members -->
-				<div id="members" class="container tab-pane fade">
-				
-					<br>
 					
+					<!-- Toggles for display type -->
 					<div class="row">
 						<div class="col">
-							<i class="fa fa-th fa-2x" style="margin-right: 10px; color: #bfbdbd;" ></i>
+							<i class="fa fa-th fa-2x" style="margin-right: 10px; color: #bfbdbd;"></i>
 							<i class="fa fa-bars fa-2x" style=" color: #bfbdbd;"></i>
 						</div>
 					</div>
 
 					<br>
 
-					
+
 					<div class="row" style="margin-bottom: 5px;">
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 
 					<div class="row" style="margin-bottom: 5px;">
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 
 					<div class="row" style="margin-bottom: 5px;">
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
-								<div class="member-img">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
-								<div class="member-name text-center">
-									<h5>Member Name</h5>
-									<h5>Interest Group</h5>
-									<ul class="member-social">
-										<li>
-											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
-											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
-											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
-											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
 								</div>
 							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
 						</div>
 
 						<div class="col-md" style="margin-bottom: 20px;">
-							<a href="" style="text-decoration: none; color: white;">
+							<!-- Image as Modal toggler -->
+							<a href="#" data-toggle="modal" data-target="#myModal">
+								<div class="about-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="group-name text-center">
+									<h3>Group Name</h3>
+								</div>
+							</a>
+
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Members -->
+				<div id="members" class="container tab-pane fade">
+
+					<br>
+
+					<div class="row">
+						<div class="col">
+							<i class="fa fa-th fa-2x" style="margin-right: 10px; color: #bfbdbd;"></i>
+							<i class="fa fa-bars fa-2x" style=" color: #bfbdbd;"></i>
+						</div>
+					</div>
+
+					<br>
+
+
+					<div class="row" style="margin-bottom: 5px;">
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
 								<div class="member-img">
 									<img src="assets/images/Logo-Full-Colour.png" alt="">
 								</div>
@@ -343,6 +434,386 @@
 									</ul>
 								</div>
 							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="row" style="margin-bottom: 5px;">
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="row" style="margin-bottom: 5px;">
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<div class="col-md" style="margin-bottom: 20px;">
+							<a href="#" style="text-decoration: none; color: white;" data-toggle="modal" data-target="#myModal2">
+								<div class="member-img">
+									<img src="assets/images/Logo-Full-Colour.png" alt="">
+								</div>
+								<div class="member-name text-center">
+									<h5>Member Name</h5>
+									<h5>Interest Group</h5>
+									<ul class="member-social">
+										<li>
+											<a href="facebook.com/"><i class="fa fa-facebook"></i></a>
+											<a href="twitter.com/"><i class="fa fa-twitter"></i></a>
+											<a href="instagram.com/"><i class="fa fa-instagram"></i></a>
+											<a href="linkedin.com/"><i class="fa fa-linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</a>
+							
+							<div class="modal" id="myModal2">
+								<div class="modal-dialog">
+									<div class="modal-content" style="background-color: #582828">
+
+										<!-- Modal Header -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										</div>
+
+										<!-- Modal body -->
+										<div class="modal-body">
+
+											<img width="100%" src="assets/images/index-background.jpg" alt="">
+
+											<br><br>
+
+											<p>Donec vel dui eget enim dictum volutpat a et odio. Ut vulputate velit elit. Suspendisse porttitor urna eget semper tempor. Praesent suscipit sed dolor at sodales. Integer enim sem, tincidunt at porttitor quis, faucibus at tellus. Fusce accumsan posuere mauris, id mattis quam varius et. </p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
 						</div>
 					</div>
 
