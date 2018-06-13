@@ -39,14 +39,14 @@ body {
 
 .nav-pills-ul {
     background-color: rgb(58, 58, 58);
-    box-shadow: #292828 0px 1px 11px 0px;
+    box-shadow: #292828 1px 5px 11px 0px;
 	color: white;
 	justify-content: space-around;
 }
 
 .nav-pills-ul:hover {
     background-color: rgb(58, 58, 58);
-    box-shadow: #292828 0px 1px 11px 0px;
+    box-shadow: #292828 1px 5px 11px 0px;
 }
 
 .nav-pills-ul > li > a {

@@ -26,35 +26,35 @@
 							</li>
 							<li>
 								<i class="fa fa-tag fa-2x"></i>
-								<a href="">About Adullam</a>
+								<a href="about.php">About Adullam</a>
 							</li>
 							<li>
 								<i class="fa fa-group fa-2x"></i>
-								<a href="">Interest Groups</a>
+								<a href="interest-groups.php">Interest Groups</a>
 							</li>
 							<li>
 								<i class="fa fa-sitemap fa-2x"></i>
-								<a href="">Adullam Teams</a>
+								<a href="teams.php">Adullam Teams</a>
 							</li>
 							<li>
 								<i class="fa fa-handshake-o fa-2x"></i>
-								<a href="">Opportunities</a>
+								<a href="opportunities.php">Opportunities</a>
 							</li>
 							<li>
 								<i class="fa fa-film fa-2x"></i>
-								<a href="">Gallery</a>
+								<a href="gallery.php">Gallery</a>
 							</li>
 							<li>
 								<i class="fa fa-calendar fa-2x"></i>
-								<a href="">Event Calender</a>
+								<a href="calender.php">Event Calender</a>
 							</li>
 							<li>
 								<i class="fa fa-hdd-o fa-2x"></i>
-								<a href="">Resource Bank</a>
+								<a href="resource.php">Resource Bank</a>
 							</li>
 							<li>
 								<i class="fa fa-comments fa-2x"></i>
-								<a href="">Adullam Chat</a>
+								<a href="chat.php">Adullam Chat</a>
 							</li>
 						</ul>
 					</div>
