@@ -1,0 +1,81 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Custom Alignment Declarations*/
+
+.v-center {
+	display: flex;
+	align-items: center;
+}
+
+.v-center-2 {
+	display: flex;
+	align-self: center;
+}
+
+.put-space-between {
+	justify-content: space-between;
+}
+
+.move-to-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.h-center {
+	justify-content: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+body {
+	background-color: #555555;
+}
+
+/* Nav Pills Styling */
+
+.nav-pills-ul {
+    background-color: rgb(58, 58, 58);
+    box-shadow: #292828 0px 1px 11px 0px;
+	color: white;
+	justify-content: space-around;
+}
+
+.nav-pills-ul:hover {
+    background-color: rgb(58, 58, 58);
+    box-shadow: #292828 0px 1px 11px 0px;
+}
+
+.nav-pills-ul > li > a {
+	color: white;
+	background-color: rgb(58, 58, 58);
+}
+
+.nav-pills-ul > li > a.active {
+	color: white;
+	background-color: rgb(58, 58, 58) !important;
+	border-radius: 0px;
+	border-bottom: 4px #890000 solid;
+}
+
+/* Tab Content Styling */
+
+
+
+/* Who We Are */
+
+.about-img > img {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.who-we-are-p {
+	color: white;
+	font-size: 20px;
+}
+
+/* What We Do */
+

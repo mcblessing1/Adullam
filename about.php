@@ -22,6 +22,7 @@
 
 	<!-- My Stylesheet -->
 	<link rel="stylesheet" href="css/home-style.css">
+	<link rel="stylesheet" href="css/about-style.css">
 
 </head>
 
@@ -30,50 +31,126 @@
 	<!-- Main Content -->
 
 	<!-- php include command to get header and menu from file -->
-
-		<?php 
-			include 'header+nav.php'; 
-		?>
-	
+	<?php 
+		include 'header+nav.php'; 
+	?>
 	<!-- php include command to get header and menu from file -->
 
-	<div class="main-content">
-		<div class="container">
+	<div class="">
+		<div class="">
 
-			<div class="container">
-  <h2>Toggleable Pills</h2>
-  <br>
-  <!-- Nav pills -->
-  <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
-    </li>
-  </ul>
+			<!-- Nav pills -->
+			<ul class="nav nav-pills nav-pills-ul" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a active" data-toggle="pill" href="#who-we-are">Who We Are</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a" data-toggle="pill" href="#what-we-do">What We Do</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a" data-toggle="pill" href="#why-are-we">Why Are We Doing This?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a" data-toggle="pill" href="#our-vision">Our Vision</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a" data-toggle="pill" href="#our-mission">Our Mission</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link nav-pills-ul-a" data-toggle="pill" href="#our-creed">Our Creed</a>
+				</li>
+			</ul>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="container tab-pane fade"><br>
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="container tab-pane fade"><br>
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-  </div>
-</div>
-			
-			
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div id="who-we-are" class="container tab-pane active"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="assets/images/index-background.jpg" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="what-we-do" class="container tab-pane fade"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="http://via.placeholder.com/500" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="why-are-we" class="container tab-pane fade"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="assets/images/index-background.jpg" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="our-vision" class="container tab-pane fade"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="http://via.placeholder.com/500" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="our-mission" class="container tab-pane fade"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="assets/images/index-background.jpg" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="our-creed" class="container tab-pane fade"><br>
+					<div class="row">
+						<div class="col-md">
+							<div class="about-img">
+								<img src="http://via.placeholder.com/500" alt="">
+							</div>
+
+							<p class="who-we-are-p" style="padding-bottom: 10px;">We have been raised to raise, supported to support, assisted to assist, motivated to motivate, inspired to inspire, loved to love, enlightened to enlighten, and empowered to empower. – Kola Oyeneyin </p>
+							
+							<p class="who-we-are-p" style="padding-bottom: 90px;">Adullam network is a platform where you will find out "why" you exist, if you haven't already, and you will be equipped to maximize the reason why you exist.</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
 		</div>
 	</div>
 	</div>
