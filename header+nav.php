@@ -29,12 +29,12 @@
 								<a href="about.php">About Adullam</a>
 							</li>
 							<li>
-								<i class="fa fa-group fa-2x"></i>
-								<a href="groups.php">Interest Groups</a>
+								<i class="fa fa-sitemap fa-2x"></i>
+								<a href="groups.php">Adullam Groups</a>
 							</li>
 							<li>
-								<i class="fa fa-sitemap fa-2x"></i>
-								<a href="teams.php">Adullam Teams</a>
+								<i class="fa fa-group fa-2x"></i>
+								<a href="interests.php">Interest Groups</a>
 							</li>
 							<li>
 								<i class="fa fa-handshake-o fa-2x"></i>
