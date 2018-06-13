@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Cave Adullam | Home</title>
+	<title>Cave Adullam | About Adullam</title>
 
 	<!-- BootStrap 4.1.1 -->
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">

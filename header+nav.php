@@ -30,7 +30,7 @@
 							</li>
 							<li>
 								<i class="fa fa-group fa-2x"></i>
-								<a href="interest-groups.php">Interest Groups</a>
+								<a href="groups.php">Interest Groups</a>
 							</li>
 							<li>
 								<i class="fa fa-sitemap fa-2x"></i>
