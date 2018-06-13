@@ -39,6 +39,10 @@
 	<div class="container">
 
 		<br>
+		
+			<h1 style="color: white;">Opportunities</h1>
+		
+		<br>
 
 		<!-- Toggles for display type -->
 		<div class="row">
@@ -54,7 +58,7 @@
 					<img class="text-center img-fluid" src="http://via.placeholder.com/650x500" alt="">
 				</div>
 
-				<p style="background-color: #1f2227; color: white; font-size: 20px; padding: 20px;">Maecenas cursus est sed euismod mattis. Ut interdum convallis lectus, at elementum tellus sagittis ac. Orci varius natoque penatibus et magnis
+				<p style="background-color: #1f2227; color: white; font-size: 20px; padding: 15px;">Maecenas cursus est sed euismod mattis. Ut interdum convallis lectus, at elementum tellus sagittis ac. Orci varius natoque penatibus et magnis
 				</p>
 
 			</div>
@@ -65,7 +69,7 @@
 							<img class="text-center img-fluid" src="http://via.placeholder.com/650x500" alt="">
 						</div>
 
-						<p style="background-color: #1f2227; color: white; font-size: 10px; padding: 20px;">Maecenas cursus est sed euismod mattis.
+						<p style="background-color: #1f2227; color: white; font-size: 20px; padding: 20px;">Maecenas cursus est sed euismod mattis.
 						</p>
 
 					</div>
@@ -77,7 +81,7 @@
 							<img class="text-center img-fluid" src="http://via.placeholder.com/650x500" alt="">
 						</div>
 
-						<p style="background-color: #1f2227; color: white; font-size: 10px; padding: 20px;">Maecenas cursus est sed euismod mattis.
+						<p style="background-color: #1f2227; color: white; font-size: 20px; padding: 20px;">Maecenas cursus est sed euismod mattis.
 						</p>
 
 					</div>
@@ -89,7 +93,7 @@
 							<img class="text-center img-fluid" src="http://via.placeholder.com/650x500" alt="">
 						</div>
 
-						<p style="background-color: #1f2227; color: white; font-size: 10px; padding: 20px;">Maecenas cursus est sed euismod mattis.
+						<p style="background-color: #1f2227; color: white; font-size: 20px; padding: 20px;">Maecenas cursus est sed euismod mattis.
 						</p>
 
 					</div>
