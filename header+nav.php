@@ -50,11 +50,7 @@
 							</li>
 							<li>
 								<i class="fa fa-hdd-o fa-2x"></i>
-								<a href="resource.php">Resource Bank</a>
-							</li>
-							<li>
-								<i class="fa fa-comments fa-2x"></i>
-								<a href="chat.php">Adullam Chat</a>
+								<a href="resources.php">Resource Bank</a>
 							</li>
 						</ul>
 					</div>
@@ -85,9 +81,11 @@
 					<!-- Notifications, Settings, Name and Icon -->
 					<div class="col-md-8">
 						<div class="move-to-right v-center notifs">
+<!--
 							<a href="chat.php">
 											<i class="fa fa-comments fa-2x" style="padding-right: 10px;"></i>
 										</a>
+-->
 							<a href="#">
 								<div class="dropdown">
 									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
