@@ -46,7 +46,7 @@
 							</li>
 							<li>
 								<i class="fa fa-calendar fa-2x"></i>
-								<a href="calender.php">Event Calender</a>
+								<a href="events.php">Event Calender</a>
 							</li>
 							<li>
 								<i class="fa fa-hdd-o fa-2x"></i>
